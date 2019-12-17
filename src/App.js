@@ -10,7 +10,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/mywebsite">
         <div>
           <Route
             exact={true}

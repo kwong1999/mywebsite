@@ -10,7 +10,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/mywebsite">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Route
             exact={true}

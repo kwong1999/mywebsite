@@ -9,6 +9,7 @@ class Home extends Component {
       <React.Fragment>
         <div class="mainDiv" align="center">
           <link rel="stylesheet" href="home.css" />
+          <br /> <br /> <br /> <br /> <br />
           <Typist>
             <p class="bio">
               Hi! My name is Katherine Wong and I am a software engineer in the

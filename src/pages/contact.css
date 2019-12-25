@@ -6,3 +6,18 @@ h5 {
   width: 20% !important;
   height: 20% !important;
 }
+.mainDiv {
+  font-family: Lato;
+}
+
+#sendEmailButton {
+  border-color: black;
+  border: 2vh !important;
+  border-radius: 2px;
+  background-color: #add8e6 !important;
+}
+#subject,
+#body {
+  height: 10vh;
+  width: 80vh;
+}

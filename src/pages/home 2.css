@@ -1,0 +1,15 @@
+.mypic {
+  width: 50% !important;
+  height: 50% !important;
+  text-align: center;
+}
+.bio {
+  font-family: Lato;
+  font-size: 3vh;
+}
+.mainDiv {
+  background-image: url("malibu.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

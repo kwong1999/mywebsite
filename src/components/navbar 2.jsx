@@ -9,7 +9,7 @@ class Navbar extends Component {
         <link rel="stylesheet" href="navbar.css" />
         <nav class="navbar navbar-default topNav">
           <div class="container-fluid">
-            <ul className="nav navbar-nav">
+            <ul class="nav navbar-nav">
               <li>
                 <Link to="/">Katherine Wong</Link>
               </li>

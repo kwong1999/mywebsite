@@ -106,16 +106,18 @@ class About extends Component {
                     <img class="hackfam" src="uscbanner.jpg" />
                     <br />
                     <pre>
-                      I am currently a sophomore at USC, studying computer
-                      science. I am a Presidential Scholar, Edison Company
-                      Scholar, and a Viterbi Scholar for my academic success and
-                      leadership in the community. On campus, I am a course
-                      producer (undergraduate TA) for the CSCI 103 class, an
-                      introduction to C++. I really enjoy USC because of its
+                      GPA: 4.0: I am currently a sophomore at USC, studying
+                      computer science. I am a Presidential Scholar, Edison
+                      Company Scholar, and a Viterbi Scholar for my academic
+                      success and leadership in the community. On campus, I am a
+                      course producer (undergraduate TA) for the CSCI 103 class,
+                      an introduction to C++. I really enjoy USC because of its
                       passionate, driven students and interdisciplinary
                       collaboration; I am able to work with not only computer
                       science students but also artists, business students, and
-                      athletes.
+                      athletes. Coursework: Data Structures and Algorithms
+                      (C++), Introduction to Embedded Systems, Principles of
+                      Software Engineering, Discrete Math
                     </pre>
                   </div>
                   <button

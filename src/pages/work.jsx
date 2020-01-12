@@ -7,7 +7,9 @@ class Work extends Component {
     return (
       <React.Fragment>
         <div class="mainDiv">
+          <img src="arrow.png"></img>
           <link rel="stylesheet" href="work.css" />
+          <img src="pages/photo.jpeg"></img>
           <h1>
             Learn more about my projects and work by clicking on the images!
           </h1>

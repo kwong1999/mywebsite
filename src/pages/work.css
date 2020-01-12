@@ -12,6 +12,6 @@
 .mainDiv {
   font: Lato;
 }
-.img {
-  width: 10vh;
+.imgW {
+  width: 20vh !important;
 }

@@ -1,5 +1,15 @@
 import React, { Component } from "react";
 import "./work.css";
+import att from "./attlogo.png";
+import microsoft from "./microsoft.jpg";
+import med from "./med.png";
+import find from "./find.png";
+import inn from "./in.png";
+import lang from "./lang.jpeg";
+import prism from "./prism.jpg";
+import game from "./video.png";
+import homeless from "./homeless.png";
+import iron from "./ironridge.png";
 import Popup from "reactjs-popup";
 class Work extends Component {
   state = {};
@@ -7,9 +17,7 @@ class Work extends Component {
     return (
       <React.Fragment>
         <div class="mainDiv">
-          <img src="arrow.png"></img>
           <link rel="stylesheet" href="work.css" />
-          <img src="pages/photo.jpeg"></img>
           <h1>
             Learn more about my projects and work by clicking on the images!
           </h1>
@@ -19,7 +27,7 @@ class Work extends Component {
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={att} />{" "}
                   </button>
                 }
                 modal
@@ -27,7 +35,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={att} />
                       <br />
                       At ATT, I worked on the personalization data team working
                       on increasing data retrieval efficiency for internal
@@ -59,7 +67,7 @@ class Work extends Component {
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={microsoft} />{" "}
                   </button>
                 }
                 modal
@@ -67,7 +75,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={microsoft} />
                       <br />
                       This summer I will be working at Microsoft under the
                       Digital Security and Risk Engineering Team. I am so
@@ -91,7 +99,7 @@ class Work extends Component {
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={med} />{" "}
                   </button>
                 }
                 modal
@@ -99,7 +107,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={med} />
                       <br />
                       MedWeb is an application I developed at LAHacks. I worked
                       as the machine learning lead. MedWeb detects for
@@ -123,13 +131,14 @@ class Work extends Component {
               </Popup>
             </div>
           </div>
+          <br /> <br />
           <div class="row">
             <div class="column">
               <Popup
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={find} />{" "}
                   </button>
                 }
                 modal
@@ -137,7 +146,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={find} />
                       <br />
                       Find My Service is an AR application to direct users to
                       the nearest cellular service using a distance/signal
@@ -166,7 +175,7 @@ class Work extends Component {
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={inn} />{" "}
                   </button>
                 }
                 modal
@@ -174,7 +183,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={inn} />
                       <br />
                       In-Or-Out is a dynamic web application that allows users
                       search for restaurants and recipes. The application
@@ -208,7 +217,7 @@ class Work extends Component {
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={lang} />{" "}
                   </button>
                 }
                 modal
@@ -216,7 +225,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={lang} />
                       <br />
                       Languages known: C++ (proficient), Java (proficient),
                       HTML/CSS (proficient), Javascript (intermediate), Python
@@ -239,13 +248,14 @@ class Work extends Component {
               </Popup>
             </div>
           </div>
+          <br /> <br /> <br />
           <div class="row">
             <div class="column">
               <Popup
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={prism} />{" "}
                   </button>
                 }
                 modal
@@ -253,7 +263,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={prism} />
                       <br />I created an Arduino LED Spectrophotometer with $50
                       comparable to the ones on the market for $1000. I worked
                       as the programmer on this project. We achieved a 70%
@@ -279,7 +289,7 @@ class Work extends Component {
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={game} />{" "}
                   </button>
                 }
                 modal
@@ -287,7 +297,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={game} />
                       <br />I created a Unity game: Quantum Shattered. Quantum
                       Shattered is a 2D side-scrolling RPG game where a
                       character must defeat monsters on the way to finding out
@@ -314,7 +324,7 @@ class Work extends Component {
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={homeless} />{" "}
                   </button>
                 }
                 modal
@@ -322,7 +332,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={homeless} />
                       <br />
                       CS Majors like to write too! I wrote an article in the USC
                       Academic Journal on the homeless issue in Los Angeles.
@@ -345,13 +355,14 @@ class Work extends Component {
               </Popup>
             </div>
           </div>
+          <br /> <br /> <br />
           <div class="row">
             <div class="column">
               <Popup
                 trigger={
                   <button className="button">
                     {" "}
-                    <img class="img-circle img" src="close.png" />{" "}
+                    <img class="img-circle imgW" src={iron} />{" "}
                   </button>
                 }
                 modal
@@ -359,7 +370,7 @@ class Work extends Component {
                 {close => (
                   <div>
                     <div className="content">
-                      <img class="img" src="close.png" />
+                      <img class="img" src={iron} />
                       <br />I worked at Ironridge as a mechanical engineering
                       intern. I tested solar mounting products for durability
                       and environmental conditions using Instron and Skidmore.
